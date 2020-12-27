@@ -14,7 +14,7 @@
 
 
 
-[ ssh 생성]: https://jootc.com/p/201905122827
+ https://jootc.com/p/201905122827
 
 
 
