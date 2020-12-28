@@ -15,3 +15,9 @@
 - 1차원 배열 
 
   [4344 평균은 넘겠지](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/4334.md)
+
+
+
+- 함수
+
+  [15596 정수 N개의 합](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/15596.md)
