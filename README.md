@@ -24,12 +24,6 @@
 
 ## 분류
 ### Git
-
-* [git  에 대한 기본 사용법]: https://github.com/her0807/TIL/blob/master/Git/Info.md
-
-* [좋은 커밋 메세지 남기는 법]: https://github.com/her0807/TIL/blob/master/Git/%EC%A2%8B%EC%9D%80%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EB%82%A8%EA%B8%B0%EB%8A%94%20%EB%B2%95.md
-
-* [git ssh로 자동 로그인하는 법]: https://github.com/her0807/TIL/blob/master/Git/git%20SSH%20%EB%A1%9C%20%EC%9E%90%EB%8F%99%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%95%98%EA%B8%B0.md
-
-  
-
+- [git  에 대한 기본 사용법](https://github.com/her0807/TIL/blob/master/Git/Info.md )
+- [좋은 커밋 메세지 남기는 법](https://github.com/her0807/TIL/blob/master/Git/%EC%A2%8B%EC%9D%80%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EB%82%A8%EA%B8%B0%EB%8A%94%20%EB%B2%95.md)
+- [git ssh로 자동 로그인하는 법](https://github.com/her0807/TIL/blob/master/Git/git%20SSH%20%EB%A1%9C%20%EC%9E%90%EB%8F%99%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%95%98%EA%B8%B0.md)
