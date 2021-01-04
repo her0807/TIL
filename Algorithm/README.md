@@ -45,4 +45,12 @@
   [11720 숫자의 합](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/11720.md)
   
   [2577 숫자의 개수](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2577.md)
+  
+  [8958 OX 퀴즈](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/8958.md)
+  
+  [1152 단어의 개수](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/1152.md)
+  
+  [10809 알파벳찾기](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/10809.md)
+  
+  
 
