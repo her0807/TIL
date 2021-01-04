@@ -41,3 +41,5 @@
 - 문자열
 
   [2438 별찍기 - 1](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2438.md)
+  
+  [11720 숫자의 합](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/11720.md)
