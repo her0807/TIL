@@ -21,3 +21,23 @@
 - 함수
 
   [15596 정수 N개의 합](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/15596.md)
+
+
+
+
+
+
+
+
+
+------
+
+
+
+#### 알고리즘 분류 별 풀이
+
+
+
+- 문자열
+
+  [2438 별찍기 - 1](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2438.md)
