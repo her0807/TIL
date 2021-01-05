@@ -62,3 +62,7 @@
   [2675 문자열 반복 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2675.md)
   
   [2908 상수 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2908.md)
+  
+  [5622  다이얼](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/5622.md)
+  
+  [2941 크로아티아 알파벳 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2941.md)
