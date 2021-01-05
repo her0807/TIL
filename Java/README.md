@@ -14,5 +14,7 @@
 
 - [next()와 nextline() 의 차이 ](https://github.com/her0807/TIL/blob/master/Java/next.md)
 
+- [substring 메소드 사용법](https://github.com/her0807/TIL/blob/master/Java/substring.md)
+
   
 
