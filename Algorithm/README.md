@@ -52,5 +52,7 @@
   
   [10809 알파벳찾기](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/10809.md)
   
+  [1157 단어공부](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/1157.md)
+  
   
 
