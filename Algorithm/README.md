@@ -66,3 +66,7 @@
   [5622  다이얼](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/5622.md)
   
   [2941 크로아티아 알파벳 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2941.md)
+  
+  [1316 그룹 단어 체커 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/1316.md)
+  
+  
