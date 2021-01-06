@@ -69,4 +69,12 @@
   
   [1316 그룹 단어 체커 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/1316.md)
   
+  [10953 A+B=6 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/10953.md)
+  
+  [10773 제로 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/10773.md)
+  
+  [2743 단어 길이 재기  ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/2743.md)
+  
+  [10808 알파벳 길이 개수 ](https://github.com/her0807/TIL/blob/master/Algorithm/Baekjoon/10808.md)
+  
   
