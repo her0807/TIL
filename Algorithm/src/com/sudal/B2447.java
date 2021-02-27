@@ -1,10 +1,9 @@
 package com.sudal;
 
-
 import java.io.*;
 
 
-public class Main {
+public class B2447 {
 
 
 
@@ -50,5 +49,4 @@ public class Main {
         }
     }
 }
-
 
