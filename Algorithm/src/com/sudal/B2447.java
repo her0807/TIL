@@ -16,11 +16,12 @@ public class B2447 {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                starArr[i][j] = "*";
+                starArr[i][j] = " ";
             }
         }
 
         star(starArr, 0, 0, n);
+
         for (String[] st : starArr) {
             for (String s : st) {
                 sb.append(s);
@@ -43,8 +44,10 @@ public class B2447 {
         }
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                if (!(i == 1 && j == 1))
+                if (!(i == 1 && j == 1)) {
+                    System.out.println("x " + x + "y " + y + "(n / 3)" + (n / 3));
                     star(arr, x + i * (n / 3), y + j * (n / 3), n / 3);
+                }
             }
         }
     }
