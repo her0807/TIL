@@ -1,2 +1,6 @@
-package hello.core.Scan.fiter;public class BeanA {
+package hello.core.Scan.fiter;
+
+
+@MyIncludeComponent
+public class BeanA {
 }

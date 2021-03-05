@@ -1,2 +1,6 @@
-package hello.core.Scan.fiter;public class BeanB {
+package hello.core.Scan.fiter;
+
+
+@MyexcludeComponent
+public class BeanB {
 }
