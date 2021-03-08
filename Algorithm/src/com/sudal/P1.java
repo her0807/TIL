@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main {
+public class P1 {
 
     public static String solution(String[] participant, String[] completion) {
         HashMap<String, Integer> map = new HashMap<>();

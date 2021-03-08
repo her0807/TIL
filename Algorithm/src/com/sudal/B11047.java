@@ -15,26 +15,26 @@ public class B11047 {
         int price = Integer.parseInt(st.nextToken());
         int[] arr = new int[n];
 
-        for (int i = 0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        System.out.println(caculate(arr, n-1, price, 0));
+        System.out.println(caculate(arr, n - 1, price, 0));
 
 
     }
 
-    public static int caculate(int[] arr, int index, int price, int coin) {
-        if (price == 0)
-            return coin;
+    public static int caculate(int[] a, int i, int p, int c) {
+        if (p == 0)
+            return c;
 
-        if (arr[index] > price && index> -1)
-            return caculate(arr, index - 1, price, coin);
+        if (a[i] > p && i > -1)
+            return caculate(a, i - 1, p, c);
 
-        if(index>-1)
-            return caculate(arr, index - 1, price%arr[index], coin+(price/arr[index]) );
+        if (i > -1)
+            return caculate(a, i - 1, p % a[i], c + (p / a[i]));
 
-     return 0;
+        return 0;
     }
 }
 
