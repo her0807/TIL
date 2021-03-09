@@ -7,44 +7,27 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static String solution(String[] participant, String[] completion) {
-        HashMap<String, Integer> map = new HashMap<>();
-        String answer = "";
+    public static boolean solution(String[] phone_book) {
 
-        for (String a : participant) {
-            if (map.get(a) == null) {
-                map.put(a, 1);
-            } else {
-                int overlap = map.get(a) + 1;
-                map.put(a, overlap);
-            }
-        }
-
-        for (String b : completion) {
-            if (map.get(b) != null) {
-                map.put(b, map.get(b) - 1);
-            }
-        }
-
-
-        for (String a : participant) {
-            if (map.get(a) == 1) {
-                answer = a;
-                return answer;
-
+        for (int i = 0; i < phone_book.length; i++) {
+            for (int j = 0; j < phone_book.length; j++) {
+                if (phone_book[j].contains(phone_book[i]) && i!=j)
+                    return false;
             }
 
-
         }
-        return answer;
+        return true;
     }
+
+
+
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String[] a = new String[]{"leo", "kiki", "eden"};
-        String[] b = new String[]{"kiki", "eden"};
-        System.out.println(solution(a, b));
+        String[] a = new String[]{"119", "97674223", "5524421"};
+        String[] b = new String[]{"12","123","1235","567","88"};
+        System.out.println(solution(a));
 
     }
 
