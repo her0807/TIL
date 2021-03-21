@@ -25,8 +25,6 @@ public class B1874 {
                 }
                 start = now;
             } else if (stack.peek() != now) {
-                System.out.println(stack.peek());
-                System.out.println(now);
                 System.out.println("NO");
                 return;
             }
