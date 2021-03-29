@@ -24,9 +24,6 @@ public class B11399 {
                 sum += arr[j];
             }
         }
-
         System.out.println(sum);
-
-        
     }
 }
