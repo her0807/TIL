@@ -28,9 +28,11 @@ public class B13144 {
     }
 
     static void input() {
+        //입력을 받기 위한 메소드
         FastReader scan = new FastReader();
         N = scan.nextInt();
         A = new int[N + 1];
+        //범위가 100,000 이니까 편한 계산을 위해서 100001
         C = new int[100000 + 1];
         for (int i = 1; i <= N; i++)
             A[i] = scan.nextInt();
