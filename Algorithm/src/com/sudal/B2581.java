@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B1292 {
+public class B2581 {
 
     public static void main(String[] args) {
         input();
@@ -11,25 +11,33 @@ public class B1292 {
 
     private static void input() {
         FastReader scan = new FastReader();
-        int a, b, sum = 0, count = 0;
+        int a, b, min = 0, sum = 0;
         a = scan.nextInt();
         b = scan.nextInt();
 
-        sum = 0;
-        for (int i = 1; i < endPoint; i++) {
-            for (int j = 0; j <i; j++) {
-                count++;
-                if (count < a)
-                    continue;
-                sum += i;
-                if (count == b) {
-                    System.out.println(sum );
-                    break;
+        while (b >= a) {
+            if (a != 1 && isPromise(a)) {
+                if (sum == 0) {
+                    min = a;
+                    sum += a;
+                } else {
+                    sum += a;
                 }
             }
+            a++;
         }
+        if (sum == 0)
+            System.out.println("-1");
+        else
+            System.out.println(sum + "\n" + min);
     }
 
+    private static boolean isPromise(int check) {
+        for (int i = 2; i * i <= check; i++) {
+            if (check % i == 0) return false;
+        }
+        return true;
+    }
 
     static class FastReader {
         StringTokenizer st;
